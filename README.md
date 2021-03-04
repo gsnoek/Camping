@@ -4,14 +4,17 @@ Follow instructions here: [Windows Users](https://selenium-python.readthedocs.io
 
 Firefox requires [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
+Various early tests are included.  These are much smaller than the main program file and do not work when there is a lot of availability (i.e. you need to press 'load more'.)
+
 To get a list of program switches, run with:
 
 ```bash
 python sitesnipe.py --help
 ```
 
-will result in the following:
-```cmd
+...will result in the following:
+
+```
 Duplicate park name: missinaibi provincial park
 This program requires some information from the user.
 
@@ -47,7 +50,7 @@ optional arguments:
 ```
 
 An example of running the program for the Wheatley Provincial Park, Highlands Campground, Site 67  August 3-4, 2021 with
-a trailer under 18 feet would be:
+a trailer under 18-feet would be:
 
 ```bash
 python sitesnipe.py -f privateinfo.txt -a 2021-08-03 -d 2021-08-04 -e 4 -p wheatley -c Highlands -s 67
