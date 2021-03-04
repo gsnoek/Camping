@@ -13,3 +13,4 @@ pause
 python-dateutil
 pywin32
 selenium-wire
+brotli

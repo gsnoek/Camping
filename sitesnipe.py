@@ -1,4 +1,3 @@
-# from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
@@ -9,6 +8,7 @@ import argparse
 import requests
 from datetime import date
 from dateutil.relativedelta import relativedelta
+# from selenium import webdriver
 from seleniumwire import webdriver
 import json
 import brotli
